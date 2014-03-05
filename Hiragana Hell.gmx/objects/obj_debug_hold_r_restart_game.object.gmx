@@ -4,11 +4,11 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,17 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var kana = 'La';
-if (scr_chance(2)) { kana = 'La' };
-if (scr_chance(2)) { kana = 'a' };
-if (scr_chance(2)) { kana = 'o' };
-if (scr_chance(2)) { kana = 'ko' };
-if (scr_chance(2)) { kana = 'ga' };
-scr_draw_kana(kana,x,y);
+            <string>has_held = 0;
 </string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -52,13 +48,10 @@ scr_draw_kana(kana,x,y);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>FILE = file_text_open_read("kana.txt")
-KANA_STRING = file_text_read_string(FILE);
-len = scr_explode_string(KANA_STRING,'|');
-for (var i = 0; i &lt; len; i++) {
-    draw_text(x,y + 10 ,array[i]);
-}
+            <string>if (keyboard_check(ord("R"))) { has_held = has_held + 1; }
+else { has_held = 0; }
 
+if (has_held &gt; 50) { game_restart(); }
 </string>
           </argument>
         </arguments>
@@ -78,6 +71,6 @@ for (var i = 0; i &lt; len; i++) {
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>0,0</point>
-    <point>830,830</point>
+    <point>32,32</point>
   </PhysicsShapePoints>
 </object>
