@@ -27,37 +27,42 @@
     <sound>sound\snd_title_song</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_title</sprite>
-    <sprite>sprites\spr_kana</sprite>
-    <sprite>sprites\spr_kana_white</sprite>
+    <sprites name="intro">
+      <sprite>sprites\spr_kana</sprite>
+      <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_kana_white</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_title</background>
-    <background>background\bg_red</background>
     <background>background\bg_kana</background>
-    <background>background\bg_space_to_play</background>
-    <background>background\bg_stare_at_the_kana</background>
-    <background>background\bg_kana_double</background>
-    <background>background\bg_kana_triple</background>
-    <background>background\bg_kana_quad</background>
-    <background>background\bg_l_to_toggle_sound</background>
-    <background>background\bg_mmb</background>
-    <background>background\bg_art_by_darin</background>
-    <background>background\bg_hold_r_to_restart</background>
+    <backgrounds name="intro">
+      <background>background\bg_l_to_toggle_sound</background>
+      <background>background\bg_red</background>
+      <background>background\bg_title</background>
+      <background>background\bg_stare_at_the_kana</background>
+      <background>background\bg_art_by_darin</background>
+      <background>background\bg_hold_r_to_restart</background>
+      <background>background\bg_mmb</background>
+      <background>background\bg_kana_triple</background>
+      <background>background\bg_kana_quad</background>
+      <background>background\bg_space_to_play</background>
+      <background>background\bg_kana_double</background>
+    </backgrounds>
+    <background>background\bg_hey</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_romanji_to_kana_offset.gml</script>
     <script>scripts\scr_chance.gml</script>
     <script>scripts\scr_draw_kana.gml</script>
-    <script>scripts\scr_explode_string.gml</script>
+    <script>scripts\explode_string.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_debug_any_key_next_room</object>
     <object>objects\obj_space_next_room</object>
     <object>objects\obj_toggle_m_to_mute</object>
     <objects name="debug">
-      <object>objects\obj_display_some_hiragana</object>
+      <object>objects\obj_draw_some_hiragana</object>
       <object>objects\obj_debug_hold_r_restart_game</object>
     </objects>
   </objects>
@@ -65,7 +70,11 @@
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_art_by_darin</room>
     <room>rooms\rm_stare_at_the_hiragana</room>
+    <room>rooms\room3</room>
   </rooms>
+  <constants number="1">
+    <constant name="kana_width">20</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
