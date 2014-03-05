@@ -4,10 +4,34 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sounds name="sound">
+    <sound>sound\snd_title_song</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprite>sprites\spr_title</sprite>
+    <sprite>sprites\spr_kana</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_title</background>
+    <background>background\bg_red</background>
+    <background>background\bg_kana</background>
+    <background>background\bg_space_to_play</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_romanji_to_kana_offset.gml</script>
+    <script>scripts\scr_chance.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_debug_any_key_next_room</object>
+    <object>objects\obj_space_next_room</object>
+    <object>objects\obj_toggle_m_to_mute</object>
+    <object>objects\obj_display_some_hiragana</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_title_screen</room>
+    <room>rooms\rm_how_to_play</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
