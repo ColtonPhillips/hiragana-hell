@@ -10,6 +10,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_title</sprite>
     <sprite>sprites\spr_kana</sprite>
+    <sprite>sprites\spr_kana_white</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_title</background>
@@ -21,6 +22,7 @@
   <scripts name="scripts">
     <script>scripts\scr_romanji_to_kana_offset.gml</script>
     <script>scripts\scr_chance.gml</script>
+    <script>scripts\scr_draw_kana.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_debug_any_key_next_room</object>

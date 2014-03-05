@@ -25,13 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var off = scr_romanji_to_kana_offset("La");
-if (scr_chance(2)) { off = scr_romanji_to_kana_offset("a") };
-if (scr_chance(2)) { off = scr_romanji_to_kana_offset("ka") };
-if (scr_chance(2)) { off = scr_romanji_to_kana_offset("ta") };
-if (scr_chance(2)) { off = scr_romanji_to_kana_offset("wi") };
-if (scr_chance(2)) { off = scr_romanji_to_kana_offset("ya") };
-draw_sprite_part(spr_kana,-1,off,0,20,20,x,y);
+            <string>var kana = 'La';
+if (scr_chance(2)) { kana = 'La' };
+if (scr_chance(2)) { kana = 'a' };
+if (scr_chance(2)) { kana = 'o' };
+if (scr_chance(2)) { kana = 'ko' };
+if (scr_chance(2)) { kana = 'ga' };
+scr_draw_kana(kana,x,y);
 </string>
           </argument>
         </arguments>
