@@ -48,11 +48,15 @@
       <background>background\bg_space_to_play</background>
       <background>background\bg_kana_double</background>
       <background>background\bg_debug_room</background>
+      <background>background\bg_try_typing</background>
+      <background>background\bg_buffering_input</background>
+      <background>background\bg_you_are_almost_ready</background>
+      <background>background\bg_must_know_the_kana</background>
+      <background>background\bg_demands_perfection</background>
+      <background>background\bg_hold_enter_to_quickplay</background>
+      <background>background\bg_blast_some_vowels</background>
+      <background>background\bg_fight_demons_with_kana</background>
     </backgrounds>
-    <background>background\bg_must_know_the_kana</background>
-    <background>background\bg_try_typing</background>
-    <background>background\bg_buffering_input</background>
-    <background>background\bg_blast_some_vowels</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -95,7 +99,7 @@
     <room>rooms\rm_you_must_know</room>
     <room>rooms\rm_buffer_room</room>
     <room>rooms\rm_vowel_room</room>
-    <room>rooms\room8</room>
+    <room>rooms\rm_warning</room>
   </rooms>
   <constants number="1">
     <constant name="kana_width">20</constant>
