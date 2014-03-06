@@ -49,6 +49,7 @@
       <background>background\bg_kana_double</background>
       <background>background\bg_debug_room</background>
     </backgrounds>
+    <background>background\bg_must_know_the_kana</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -73,6 +74,7 @@
     <room>rooms\rm_stare_at_the_hiragana</room>
     <room>rooms\rm_debug_room</room>
     <room>rooms\rm_yellow</room>
+    <room>rooms\rm_you_must_know</room>
   </rooms>
   <constants number="1">
     <constant name="kana_width">20</constant>
