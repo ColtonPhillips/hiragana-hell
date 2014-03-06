@@ -47,8 +47,8 @@
       <background>background\bg_kana_quad</background>
       <background>background\bg_space_to_play</background>
       <background>background\bg_kana_double</background>
+      <background>background\bg_debug_room</background>
     </backgrounds>
-    <background>background\bg_hey</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
