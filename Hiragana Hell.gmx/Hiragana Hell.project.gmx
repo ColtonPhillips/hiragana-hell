@@ -50,6 +50,7 @@
       <background>background\bg_debug_room</background>
     </backgrounds>
     <background>background\bg_must_know_the_kana</background>
+    <background>background\bg_try_typing</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -61,12 +62,19 @@
   <objects name="objects">
     <object>objects\obj_debug_any_key_next_room</object>
     <object>objects\obj_space_next_room</object>
+    <object>objects\obj_enter_next_room</object>
     <object>objects\obj_toggle_m_to_mute</object>
     <objects name="debug">
       <object>objects\obj_draw_some_hiragana</object>
       <object>objects\obj_debug_hold_r_restart_game</object>
       <object>objects\obj_debug_view_expander</object>
     </objects>
+    <object>objects\obj_typing_buffer</object>
+    <object>objects\obj_typing_buffer_2</object>
+    <object>objects\obj_typing_buffer_3</object>
+    <object>objects\obj_typing_buffer_4</object>
+    <object>objects\obj_typing_buffer_5</object>
+    <object>objects\obj_buffer_drawer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title_screen</room>
@@ -75,6 +83,8 @@
     <room>rooms\rm_debug_room</room>
     <room>rooms\rm_yellow</room>
     <room>rooms\rm_you_must_know</room>
+    <room>rooms\rm_buffer_room</room>
+    <room>rooms\rm_vowel_room</room>
   </rooms>
   <constants number="1">
     <constant name="kana_width">20</constant>
