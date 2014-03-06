@@ -64,13 +64,15 @@
     <objects name="debug">
       <object>objects\obj_draw_some_hiragana</object>
       <object>objects\obj_debug_hold_r_restart_game</object>
+      <object>objects\obj_debug_view_expander</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_art_by_darin</room>
     <room>rooms\rm_stare_at_the_hiragana</room>
-    <room>rooms\room3</room>
+    <room>rooms\rm_debug_room</room>
+    <room>rooms\rm_yellow</room>
   </rooms>
   <constants number="1">
     <constant name="kana_width">20</constant>

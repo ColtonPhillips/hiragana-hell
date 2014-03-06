@@ -53,6 +53,7 @@
     <instance objName="obj_draw_some_hiragana" x="64" y="32" name="inst_A4E9DCE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_draw_some_hiragana" x="416" y="32" name="inst_8414A65A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_draw_some_hiragana" x="832" y="32" name="inst_ABDC9B27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_space_next_room" x="64" y="224" name="inst_2F40AE4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
