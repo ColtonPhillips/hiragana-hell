@@ -51,6 +51,8 @@
     </backgrounds>
     <background>background\bg_must_know_the_kana</background>
     <background>background\bg_try_typing</background>
+    <background>background\bg_buffering_input</background>
+    <background>background\bg_blast_some_vowels</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -59,6 +61,9 @@
     <script>scripts\scr_draw_kana.gml</script>
     <script>scripts\explode_string.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_buffer</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_debug_any_key_next_room</object>
     <object>objects\obj_space_next_room</object>
@@ -69,12 +74,17 @@
       <object>objects\obj_debug_hold_r_restart_game</object>
       <object>objects\obj_debug_view_expander</object>
     </objects>
-    <object>objects\obj_typing_buffer</object>
-    <object>objects\obj_typing_buffer_2</object>
-    <object>objects\obj_typing_buffer_3</object>
-    <object>objects\obj_typing_buffer_4</object>
-    <object>objects\obj_typing_buffer_5</object>
-    <object>objects\obj_buffer_drawer</object>
+    <objects name="buffer">
+      <object>objects\obj_typing_buffer</object>
+      <object>objects\obj_typing_buffer_2</object>
+      <object>objects\obj_typing_buffer_3</object>
+      <object>objects\obj_typing_buffer_4</object>
+      <object>objects\obj_typing_buffer_5</object>
+      <object>objects\obj_typing_buffer_6</object>
+      <object>objects\obj_keyboard_buffer</object>
+      <object>objects\obj_buffer_drawer</object>
+    </objects>
+    <object>objects\obj_vowel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title_screen</room>
@@ -85,6 +95,7 @@
     <room>rooms\rm_you_must_know</room>
     <room>rooms\rm_buffer_room</room>
     <room>rooms\rm_vowel_room</room>
+    <room>rooms\room8</room>
   </rooms>
   <constants number="1">
     <constant name="kana_width">20</constant>
