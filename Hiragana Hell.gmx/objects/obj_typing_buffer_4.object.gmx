@@ -53,7 +53,7 @@
 }
 else {
     if (keyboard_key != 0) {
-        __buffer += keyboard_key;
+       // __buffer += keyboard_key;
     }
 }
 

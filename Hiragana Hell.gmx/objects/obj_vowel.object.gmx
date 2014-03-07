@@ -68,8 +68,9 @@ if (__romanji == obj_keyboard_buffer.__buffer) {
     io_clear();
     instance_destroy();
 }
-move_towards_point(obj_vowel.x + irandom_range(-100,100), obj_vowel.y + irandom_range(-100,100), 1);
-
+if (instance_exists(obj_vowel)) {
+    move_towards_point(obj_vowel.x + irandom_range(-100,100), obj_vowel.y + irandom_range(-100,100), 1);
+}
 if (place_meeting(x,y, obj_vowel)) {
     move_towards_point(x + irandom_range(-100,100), y + irandom_range(-100,100), 2);
 }
