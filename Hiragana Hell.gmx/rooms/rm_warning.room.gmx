@@ -35,7 +35,7 @@
     <background visible="-1" foreground="0" name="bg_hold_enter_to_quickplay" x="50" y="150" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="-1" foreground="0" name="bg_demands_perfection" x="40" y="260" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="-1" foreground="0" name="bg_fight_demons_with_kana" x="60" y="380" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="0" name="bg_mmb" x="300" y="500" htiled="0" vtiled="0" hspeed="0" vspeed="-1" stretch="0"/>
+    <background visible="-1" foreground="0" name="bg_mmb" x="300" y="500" htiled="0" vtiled="0" hspeed="0" vspeed="-8" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
