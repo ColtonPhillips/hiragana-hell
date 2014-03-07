@@ -55,6 +55,7 @@ draw_set_halign(fa_center);</code>
   <instances>
     <instance objName="obj_space_next_room" x="64" y="160" name="inst_0D734048" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_toggle_m_to_mute" x="0" y="96" name="inst_C1C700D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hold_enter_quick_play" x="96" y="192" name="inst_63F0A48B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

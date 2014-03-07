@@ -32,6 +32,7 @@
       <sprite>sprites\spr_title</sprite>
       <sprite>sprites\spr_kana_white</sprite>
     </sprites>
+    <sprite>sprites\spr_monolith</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_kana</background>
@@ -57,6 +58,7 @@
       <background>background\bg_blast_some_vowels</background>
       <background>background\bg_fight_demons_with_kana</background>
     </backgrounds>
+    <background>background\bg_bad_tile</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -76,6 +78,7 @@
     <objects name="debug">
       <object>objects\obj_draw_some_hiragana</object>
       <object>objects\obj_debug_hold_r_restart_game</object>
+      <object>objects\obj_hold_enter_quick_play</object>
       <object>objects\obj_debug_view_expander</object>
     </objects>
     <objects name="buffer">
@@ -89,6 +92,7 @@
       <object>objects\obj_buffer_drawer</object>
     </objects>
     <object>objects\obj_vowel</object>
+    <object>objects\obj_monolith</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title_screen</room>
@@ -100,6 +104,7 @@
     <room>rooms\rm_buffer_room</room>
     <room>rooms\rm_vowel_room</room>
     <room>rooms\rm_warning</room>
+    <room>rooms\rm_game</room>
   </rooms>
   <constants number="1">
     <constant name="kana_width">20</constant>

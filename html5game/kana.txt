@@ -1,7 +1,43 @@
+a
+a
+e
+e
+o
+o
+i
+i
+u
+u
+ko
+ko
+ki
+ki
+ku
+ku
+ke
+ke
+ka
+ka
+wa
+wa
+wi
+wi
+Lo
+o
+La
+a
+Ltsu
+tsu
+Le
+e
+Lu
+u
+Li
+i
+ko re
+kore
 wa ta shi wa
 watashiwa
-ko re wa
-korewa
 sa yo na ra
 sayonara
 bu ra ro
@@ -12,3 +48,5 @@ ko ru to n
 koruton
 ki ra
 kira
+sa
+sa
