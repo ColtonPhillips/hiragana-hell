@@ -25,6 +25,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_title_song</sound>
+    <sound>sound\snd_minute_loop</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="intro">
@@ -58,7 +59,7 @@
       <background>background\bg_blast_some_vowels</background>
       <background>background\bg_fight_demons_with_kana</background>
     </backgrounds>
-    <background>background\bg_bad_tile</background>
+    <background>background\bg_demon_ground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

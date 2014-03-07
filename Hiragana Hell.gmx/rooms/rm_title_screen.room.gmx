@@ -11,6 +11,7 @@
   <colour>255</colour>
   <showcolour>-1</showcolour>
   <code>audio_stop_all();
+audio_stop_sound(snd_minute_loop);
 audio_play_sound(snd_title_song,1,true);
 draw_set_font(fnt_buffer);
 draw_set_halign(fa_center);</code>
@@ -56,6 +57,7 @@ draw_set_halign(fa_center);</code>
     <instance objName="obj_space_next_room" x="64" y="160" name="inst_0D734048" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_toggle_m_to_mute" x="0" y="96" name="inst_C1C700D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hold_enter_quick_play" x="96" y="192" name="inst_63F0A48B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_hold_r_restart_game" x="128" y="256" name="inst_C73C9C64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

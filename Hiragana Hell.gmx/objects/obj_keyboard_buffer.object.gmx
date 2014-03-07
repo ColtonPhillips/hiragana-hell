@@ -81,7 +81,11 @@ __buffer = string_replace_all(__buffer, vk_enter, "");
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(x,y,__buffer);
+            <string>draw_text_color(x+1,y+1,__buffer,c_white,c_white,c_white,c_white,1);
+draw_text_color(x-1,y+1,__buffer,c_white,c_white,c_white,c_white,1);
+draw_text_color(x+1,y-1,__buffer,c_white,c_white,c_white,c_white,1);
+draw_text_color(x-1,y-1,__buffer,c_white,c_white,c_white,c_white,1);
+draw_text(x,y,__buffer);
 </string>
           </argument>
         </arguments>
