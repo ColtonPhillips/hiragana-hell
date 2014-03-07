@@ -41,7 +41,7 @@
       <background>background\bg_red</background>
       <background>background\bg_title</background>
       <background>background\bg_stare_at_the_kana</background>
-      <background>background\bg_art_by_darin</background>
+      <background>background\bg_art_by_shyruin</background>
       <background>background\bg_hold_r_to_restart</background>
       <background>background\bg_mmb</background>
       <background>background\bg_kana_triple</background>
@@ -96,7 +96,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title_screen</room>
-    <room>rooms\rm_art_by_darin</room>
+    <room>rooms\rm_art_by_shyruin</room>
     <room>rooms\rm_stare_at_the_hiragana</room>
     <room>rooms\rm_debug_room</room>
     <room>rooms\rm_yellow</room>

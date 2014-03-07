@@ -13,7 +13,7 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>840</width>
-  <height>74</height>
-  <data>images\bg_art_by_darin.png</data>
+  <width>600</width>
+  <height>80</height>
+  <data>images\bg_art_by_shyruin.png</data>
 </background>
