@@ -35,6 +35,7 @@
     </sprites>
     <sprite>sprites\spr_monolith</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_useless_blob</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_kana</background>
@@ -69,7 +70,6 @@
   <scripts name="scripts">
     <script>scripts\scr_romanji_to_kana_offset.gml</script>
     <script>scripts\scr_chance.gml</script>
-    <script>scripts\script4.gml</script>
     <script>scripts\scr_draw_kana.gml</script>
     <script>scripts\explode_string.gml</script>
     <script>scripts\scr_is_near.gml</script>
@@ -78,6 +78,14 @@
     <script>scripts\scr_sprite_change_if_not.gml</script>
     <script>scripts\scr_sprite_flip_left_if_not.gml</script>
     <script>scripts\scr_sprite_flip_right_if_not.gml</script>
+    <script>scripts\instance_closest_approach.gml</script>
+    <script>scripts\instance_find_enemy.gml</script>
+    <script>scripts\instance_nth_farthest.gml</script>
+    <script>scripts\instance_nth_nearest.gml</script>
+    <script>scripts\scr_spawn_general.gml</script>
+    <script>scripts\scr_think.gml</script>
+    <script>scripts\scr_walker_npc.gml</script>
+    <script>scripts\scr_equal_range.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_buffer</font>
@@ -106,6 +114,7 @@
     <object>objects\obj_vowel</object>
     <object>objects\obj_monolith</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_useless_blob</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title_screen</room>

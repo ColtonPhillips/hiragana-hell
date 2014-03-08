@@ -51,11 +51,37 @@ audio_play_sound(snd_minute_loop,1,true);</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_vowel" x="448" y="192" name="inst_DF797783" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_vowel" x="576" y="320" name="inst_D4DFF74D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_keyboard_buffer" x="448" y="416" name="inst_22655AD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="32" y="480" name="inst_68E2BF8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="32" y="96" name="inst_D11A4D68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="-32" y="256" name="inst_C7378B5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="416" y="96" name="inst_45842383" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_monolith" x="402" y="248" name="inst_6387D80B" locked="0" code="" scaleX="1.29999995231628" scaleY="1.39999997615814" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="320" y="288" name="inst_E220BFB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="800" y="384" name="inst_0FC5E23E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="896" y="192" name="inst_9441C74F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="544" y="480" name="inst_97360477" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="416" y="320" name="inst_FCB6134A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="704" y="448" name="inst_B43D3014" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="736" y="448" name="inst_336CC89C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="768" y="448" name="inst_BE2E3B25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="768" y="480" name="inst_FFBA4952" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="800" y="480" name="inst_DAE5AEBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="832" y="480" name="inst_BB5C239D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="864" y="480" name="inst_751F6BB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="864" y="448" name="inst_4A40FB6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="896" y="448" name="inst_74E3C916" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="928" y="448" name="inst_499B0643" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="192" y="288" name="inst_E25395C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="448" y="320" name="inst_C447F14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="576" y="288" name="inst_1FACCDA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="544" y="320" name="inst_96F2FBEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="544" y="352" name="inst_ACB0ECB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="544" y="192" name="inst_EB018B99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="448" y="256" name="inst_268E1C37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="480" y="288" name="inst_65472CCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="416" y="320" name="inst_D5B45D4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_useless_blob" x="288" y="256" name="inst_5EAD7142" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_keyboard_buffer" x="192" y="192" name="inst_AF0E0BAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
