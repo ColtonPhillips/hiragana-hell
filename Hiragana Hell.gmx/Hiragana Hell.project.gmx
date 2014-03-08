@@ -34,6 +34,7 @@
       <sprite>sprites\spr_kana_white</sprite>
     </sprites>
     <sprite>sprites\spr_monolith</sprite>
+    <sprite>sprites\spr_player</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_kana</background>
@@ -60,13 +61,23 @@
       <background>background\bg_fight_demons_with_kana</background>
     </backgrounds>
     <background>background\bg_demon_ground</background>
+    <background>background\bg_dark</background>
+    <background>background\bg_cloud</background>
+    <background>background\bg_more_cloud</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_romanji_to_kana_offset.gml</script>
     <script>scripts\scr_chance.gml</script>
+    <script>scripts\script4.gml</script>
     <script>scripts\scr_draw_kana.gml</script>
     <script>scripts\explode_string.gml</script>
+    <script>scripts\scr_is_near.gml</script>
+    <script>scripts\scr_average_of_two.gml</script>
+    <script>scripts\scr_move_away_from.gml</script>
+    <script>scripts\scr_sprite_change_if_not.gml</script>
+    <script>scripts\scr_sprite_flip_left_if_not.gml</script>
+    <script>scripts\scr_sprite_flip_right_if_not.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_buffer</font>
@@ -94,6 +105,7 @@
     </objects>
     <object>objects\obj_vowel</object>
     <object>objects\obj_monolith</object>
+    <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title_screen</room>
