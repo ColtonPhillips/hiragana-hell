@@ -78,10 +78,7 @@ while (!file_text_eof(FILE)) {
     kana_string = file_text_read_string(FILE);
     file_text_readln(FILE);
     draw_text(0,0,kana_string);
-    len = explode_string(kana_string, ' ');
-    for (var i = 0; i &lt; len; i++) {
-        scr_draw_kana(array[i], x + kana_width * i, y + 50 * j);
-    }
+    scr_draw_kana(x,y + 50*j,kana_string); 
     romanji_string = file_text_read_string(FILE);
     file_text_readln(FILE);
     draw_text(x, y + kana_width  + (50 * j), romanji_string);

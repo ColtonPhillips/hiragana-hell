@@ -25,19 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>romanji = "a";
-if (scr_chance(2)) {
-    romanji = "i";
-}
-if (scr_chance(2)) {
-    romanji = "e";
-}
-if (scr_chance(2)) {
-    romanji = "o";
-}
-if (scr_chance(2)) {
-    romanji = "u";
-}
+            <string>romanji = "ko ru to n";
+is_first_frame = true;
 </string>
           </argument>
         </arguments>
@@ -60,18 +49,23 @@ if (scr_chance(2)) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (scr_chance(600)) {
-    instance_create(x,y,obj_vowel);
+            <string>if (is_first_frame) 
+{
+is_first_frame = false;
+length = string_count(" ",romanji) + 1;
+kana_offset_list = scr_romanji_to_kana_offset_list(romanji);
+half_length  = length/2;
+x = x - 20 * half_length;
+y = y - 20;
+_x = x;
+_y = y;
 }
-if (romanji == obj_keyboard_buffer.__buffer) {
-    instance_hella_destroy();
-}
-if (instance_exists(obj_vowel)) {
-    move_towards_point(obj_vowel.x + irandom_range(-100,100), obj_vowel.y + irandom_range(-100,100), 1);
-}
-if (place_meeting(x,y, obj_vowel)) {
-    move_towards_point(x + irandom_range(-100,100), y + irandom_range(-100,100), 2);
-}
+
+y-=0.5;
+image_alpha -=0.02;
+if image_alpha &lt; 0 instance_destroy();
+_x = x;
+_y = y;
 </string>
           </argument>
         </arguments>
@@ -94,7 +88,20 @@ if (place_meeting(x,y, obj_vowel)) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_draw_kana(x,y,romanji);
+            <string>if is_first_frame return 0;
+
+draw_set_alpha(image_alpha);
+i = 0;
+repeat(length) {
+var the_one = ds_list_find_value(kana_offset_list,i);
+    draw_sprite_part(spr_kana_white,-1,the_one,0,20,20,_x-1,_y-1);
+    draw_sprite_part(spr_kana_white,-1,the_one,0,20,20,_x+1,_y-1);
+    draw_sprite_part(spr_kana,-1,the_one,0,20,20,_x,_y);
+    _x+= 20;
+    i++;
+}
+
+draw_set_alpha(1);
 </string>
           </argument>
         </arguments>

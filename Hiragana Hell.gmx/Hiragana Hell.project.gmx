@@ -35,7 +35,15 @@
     </sprites>
     <sprite>sprites\spr_monolith</sprite>
     <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_useless_blob</sprite>
+    <sprites name="demons">
+      <sprite>sprites\sprite1</sprite>
+      <sprite>sprites\sprite2</sprite>
+      <sprite>sprites\sprite3</sprite>
+      <sprite>sprites\sprite5</sprite>
+      <sprite>sprites\sprite6</sprite>
+      <sprite>sprites\sprite7</sprite>
+      <sprite>sprites\spr_useless_blob</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_kana</background>
@@ -69,8 +77,8 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_romanji_to_kana_offset.gml</script>
+    <script>scripts\scr_romanji_to_kana_offset_list.gml</script>
     <script>scripts\scr_chance.gml</script>
-    <script>scripts\scr_draw_kana.gml</script>
     <script>scripts\explode_string.gml</script>
     <script>scripts\scr_is_near.gml</script>
     <script>scripts\scr_average_of_two.gml</script>
@@ -86,6 +94,10 @@
     <script>scripts\scr_think.gml</script>
     <script>scripts\scr_walker_npc.gml</script>
     <script>scripts\scr_equal_range.gml</script>
+    <script>scripts\scr_init_thinker_general.gml</script>
+    <script>scripts\string_extract.gml</script>
+    <script>scripts\instance_hella_destroy.gml</script>
+    <script>scripts\scr_draw_kana.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_buffer</font>
@@ -115,6 +127,7 @@
     <object>objects\obj_monolith</object>
     <object>objects\obj_player</object>
     <object>objects\obj_useless_blob</object>
+    <object>objects\obj_kana</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title_screen</room>

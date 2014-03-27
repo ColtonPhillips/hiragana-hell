@@ -95,6 +95,7 @@ switch (_r)
     case 'wi':  return _w*79;
     case 'we':  return _w*80;
     case 'wo':  return _w*81;
-        default: return _w*81;
+    case 'n':  return _w*82;
+            default: return _w*81;
 }
           
