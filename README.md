@@ -1,4 +1,4 @@
 hiragana-hell
 =============
 
-A game where you type nihongo to kill demons.
+An unfinished game where you type nihongo to kill demons.
